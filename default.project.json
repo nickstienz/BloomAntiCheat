@@ -4,20 +4,20 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "NyxShared": {
+      "BloomShared": {
         "$path": "src/shared"
       }
     },
 
     "ServerScriptService": {
-      "NyxServer": {
+      "BloomServer": {
         "$path": "src/server"
       }
     },
 
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "NyxClient": {
+        "BloomClient": {
           "$path": "src/client"
         }
       }
