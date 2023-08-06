@@ -1,18 +1,18 @@
 local settings = require(game.ReplicatedStorage:WaitForChild("BloomShared").data.settings)
-local maxLogSize = settings.maxLogSize
-local outputLogs = settings.outputLogs
+local output_logs = settings.output_logs
+local max_log_size = settings.max_log_size
 
 local logging = {}
 
 local logs = {}
-local logErrors = {}
+local log_errors = {}
 local head = 1
 
 local function log(message: string)
     logs[head] = message
-    head = (head % maxLogSize) + 1
+    head = (head % max_log_size) + 1
 
-    if outputLogs then print("(Bloom)~" .. message) end
+    if output_logs then print("(Bloom)~" .. message) end
 end
 
 function logging.okay(message: string)
@@ -29,10 +29,10 @@ end
 
 function logging.error(message: string)
     log("[-] " .. message)
-    table.insert(logErrors, message)
+    table.insert(log_errors, message)
 end
 
-function logging.getLogs()
+function logging.get_logs()
     return logs
 end
 
