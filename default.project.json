@@ -4,20 +4,23 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "BloomShared": {
-        "$path": "src/shared"
+      "bloom_shared": {
+        "$path": "src/shared",
+        "events": {
+          "$className": "Folder"
+        }
       }
     },
 
     "ServerScriptService": {
-      "BloomServer": {
+      "bloom_server": {
         "$path": "src/server"
       }
     },
 
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "BloomClient": {
+        "bloom_client": {
           "$path": "src/client"
         }
       }
