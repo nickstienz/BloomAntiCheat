@@ -1,3 +1,18 @@
 title: Bloom Anti-Cheat
 remote-theme: just-the-docs/just-the-docs
-description: Docs to the Bloom Anti-Cheat, an anti-cheat being developed for the Roblox platform independently from the Roblox Corporation. An anti-cheat made for the people by the people in order to bring fairness and safety to the Roblox Platform.
+description: Docs to the Bloom Anti-Cheat
+repository: nickstienz/BloomAntiCheat
+
+search_enabled: true
+
+enable_copy_code_button: true
+
+nav_sort: case_sensitive
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+color_scheme: dark
