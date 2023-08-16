@@ -1,6 +1,6 @@
 # Logging
 
-[Return](./index.md)
+[Go Home](../home.md)
 
 The Logging module allows Bloom to internally store and manage logs.
 You can access the module to make new logs or get them. This allows for

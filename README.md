@@ -1,10 +1,10 @@
-# Bloom Anti-Cheat (Alpha 0.1.0)
+# Bloom Anti-Cheat (v0.2.0a)
+
+## [Documentation](./docs/home.md)
 
 ## What is Bloom Anti-Cheat?
 
 Bloom Anti-Cheat is a free, open-source anti-cheat for Roblox games. It is designed to be easy to use and easy to integrate into your game. It focuses on accuracy and performance, and is written in Luau with a bit of Rust for static analysis.
-
-## [Docs](./docs/index.md)
 
 ## How does it work?
 
@@ -12,7 +12,7 @@ Bloom Anti-Cheat uses many different client-side methods to detect cheating. The
 
 ## How do I use it?
 
-Bloom Anti-Cheat is made to be a very simple drag-and-drop solution. You can download the latest release and then drop the folders into the right places. From there, you would simply connect to the API so the anti-cheat can understand how YOUR game works. You can find more information on how to do that in the documentation. (Coming soon)
+Bloom Anti-Cheat is made to be a very simple drag-and-drop solution. You can download the latest release and then drop the folders into the right places. From there, you would simply connect to the API so the anti-cheat can understand how YOUR game works. You can find more information on how to do that in the [documentation](./docs/home.md). 
 
 ## How can I contribute?
 
