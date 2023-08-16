@@ -4,6 +4,8 @@
 
 Bloom Anti-Cheat is a free, open-source anti-cheat for Roblox games. It is designed to be easy to use and easy to integrate into your game. It focuses on accuracy and performance, and is written in Luau with a bit of Rust for static analysis.
 
+## [Docs](./docs/index.md)
+
 ## How does it work?
 
 Bloom Anti-Cheat uses many different client-side methods to detect cheating. The clients will detect the cheats of other players and send the data they collect to the server. The server will then use it's own data and what I call the "Voting System" to determine if the player is cheating or not. The server will then perform the appropriate action in order to punish the cheater. This ensures the server has very minimal performance impact as the clients can adapt to the devices they are running on individually for the best performance.
