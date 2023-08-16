@@ -1,11 +1,3 @@
----
-layout: default
-title: Home
-nav_order: 1
-description: "Bloom Anti-Cheat is an anti-cheat being developed for the Roblox Platform."
-permalink: /
----
-
 # Bloom Anti-Cheat
 
 Bloom Anti-Cheat is an anti-cheat being developed for the Roblox Platform.
