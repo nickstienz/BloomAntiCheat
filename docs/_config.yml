@@ -1,24 +1,4 @@
 title: Bloom Anti-Cheat
-remote-theme: just-the-docs/just-the-docs
+theme: cayman 
 description: Docs to the Bloom Anti-Cheat
 repository: nickstienz/BloomAntiCheat
-search_enabled: true
-search:
-  heading_level: 2
-  previews: 2
-  preview_words_before: 3
-  preview_words_after: 3
-  tokenizer_separator: /[\s/]+/
-  rel_url: true
-  button: false
-enable_copy_code_button: true
-nav_sort: case_sensitive
-back_to_top: true
-back_to_top_text: "Back to top"
-last_edit_timestamp: true
-last_edit_time_format: "%b %e %Y at %I:%M %p"
-color_scheme: dark
-heading_anchors: true
-aux_links:
-  "Bloom Anti-Cheat on GitHub":
-    - "https://github.com/nickstienz/BloomAntiCheat"
