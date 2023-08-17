@@ -17,17 +17,17 @@ local head = 1
 local function log(file_name: string, message: string)
     if not do_logging then return end
 
-    local formated_message = message .. " (" .. file_name .. ")"
+    local formated_message = "(Bloom)~" .. message .. " (" .. file_name .. ")"
     logs_table[head] = formated_message
     head = (head % max_log_size) + 1
 
     if print_logs == 0 then return end -- No prints
     if print_logs == 3 then -- All
-        print("(Bloom)~" .. formated_message)
+        print(formated_message)
     elseif print_logs == 2 and not is_studio then -- Only Game
-        print("(Bloom)~" .. formated_message)
+        print(formated_message)
     elseif print_logs == 1 and is_studio then -- Only Studio
-        print("(Bloom)~" .. formated_message)
+        print(formated_message)
     end
 end
 
