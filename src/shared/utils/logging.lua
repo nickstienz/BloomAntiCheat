@@ -21,14 +21,13 @@ local function log(file_name: string, message: string)
     logs_table[head] = formated_message
     head = (head % max_log_size) + 1
 
-    if print_logs ~= 0 then -- No prints
-        if print_logs == 3 then -- All
-            print("(Bloom)~" .. formated_message)
-        elseif print_logs == 2 and not is_studio then -- Only Game
-            print("(Bloom)~" .. formated_message)
-        elseif print_logs == 1 and is_studio then -- Only Studio
-            print("(Bloom)~" .. formated_message)
-        end
+    if print_logs == 0 then return end -- No prints
+    if print_logs == 3 then -- All
+        print("(Bloom)~" .. formated_message)
+    elseif print_logs == 2 and not is_studio then -- Only Game
+        print("(Bloom)~" .. formated_message)
+    elseif print_logs == 1 and is_studio then -- Only Studio
+        print("(Bloom)~" .. formated_message)
     end
 end
 
