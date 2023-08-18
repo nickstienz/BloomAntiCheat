@@ -1,4 +1,4 @@
-# Bloom Anti-Cheat (v0.2.0a)
+# Bloom Anti-Cheat (v0.3.0a)
 
 ## [Documentation](./docs/home.md)
 

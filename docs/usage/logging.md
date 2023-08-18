@@ -2,6 +2,8 @@
 
 [Go Home](../home.md)
 
+[Go to the Logging module](../../src/shared/utils/logging.lua)
+
 The Logging module allows Bloom to internally store and manage logs.
 You can access the module to make new logs or get them. This allows for
 you to understand what Bloom is doing and for better debugging.
